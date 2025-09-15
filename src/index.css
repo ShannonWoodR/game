@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background-color: #f9fafb;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+input, textarea {
+  font-family: inherit;
+  outline: none;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+}
+
+.gradient-button {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.card-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card-shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
+}
