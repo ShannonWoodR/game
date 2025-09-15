@@ -6,5 +6,11 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5173
+  },
+  define: {
+    global: 'globalThis',
+  },
+  optimizeDeps: {
+    include: ['react', 'react-dom']
   }
 })
